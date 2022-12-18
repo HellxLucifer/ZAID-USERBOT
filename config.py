@@ -1,21 +1,21 @@
 from os import getenv
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "25323725")) #optional
+API_HASH = getenv("API_HASH", "d8572a34210ea00684d907b10c55fbfb") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID", ""))
-MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5579821073").split()))
+OWNER_ID = int(getenv("OWNER_ID", "5791580051"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Hellxlucifer:LuciferOnTop@cluster0.8ugt3ly.mongodb.net/?retryWrites=true&w=majority" )
+BOT_TOKEN = getenv("BOT_TOKEN", "5711042625:AAGoRTizmBZd6UPQBVy59ZOxJpBadqo62HM")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
-PM_LOGGER = getenv("PM_LOGGER")
-LOG_GROUP = getenv("LOG_GROUP")
+PM_LOGGER = getenv("PM_LOGGER", "1001858470846" )
+LOG_GROUP = getenv("LOG_GROUP"), "1001892134899") 
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQGCaM0AVeXK8a5nk8EuTRlqZX8bbU9BJYGrleR8JdLT_PIVfDnPnRAVZSu3uV8DG0P8hHtw_mm72k3DkH2Uf3x_LD3T0mQzsHkoaDFTUY7vEaPT4ub6JKC55G1L-2i4CGJKzjCUgjGM7_uRYL731Jvs1ML5PEAnDeDTnHVC5BSnNBM_MPl4_jwb_dLn5VlCoRPY0QmJMtzZGs0QJs32X8DsjsBS26nXR1c22-M-DTif8DyppudpLKvfMu2n5E2NZHSEGx5YyHEXlmjye3kvpjHiuobORy0L6NUPboJ8MM4Zowl68ChaCSjf5dSkmd1ws9VBgCk8L0DTocoGEnYnWPIRcIEgOAAAAAFZNH-TAA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
